@@ -59,7 +59,7 @@ jobs:
 
   deploy:
     needs: build-and-push-docker
-    runs-on: ubuntu-22.04-arm
+    runs-on: ubuntu-latest
 
     steps:
       - name: Deploy on VM via host machine
